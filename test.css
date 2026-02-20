@@ -1,1 +1,101 @@
+body {
+  font-family: "Yu Gothic", "Helvetica", sans-serif;
+  background-color: #f5f5f5;
+  color: #000000;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #f5e6c8;
+  color: #5a3e2b;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.layout {
+  display: flex;
+  gap: 0; /* ← 隙間を完全にゼロに */
+}
+
+nav {
+  width: 200px;
+  background-color: #e8e8e8;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5a3e2b;
+  display: block;
+  padding: 5px 0;
+}
+
+nav a:hover {
+  color: #0a20a0;
+  font-weight: bold;
+}
+
+main {
+  flex: 1;
+  background-color: #cfc7bf;
+  border-radius: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 0 0;
+  background-color: #f3eee8;
+  border-radius: 0;
+  overflow: hidden; 
+}
+
+th, td {
+  color: #000000;
+  border: 2px solid #999;
+  padding: 10px;
+  text-align: left;
+  border-radius: 0;
+}
+
+th {
+  background-color: #cfcfcf;
+}
+
+.send-btn-wrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.send-btn-wrap {
+  text-align: right;   
+  margin-top: 20px;
+}
+
+footer {
+  background-color:#222;
+  text-align: center;
+  padding: 15px;
+  margin-top: 0;
+}
